@@ -381,7 +381,7 @@ export default function Assistente() {
       <CardsArea>
         <div className="cards" >
           <div>
-          <iframe  width="120%" frameborder = "0" margin-left="-2.5px" height="800px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113131.32022301319!2d-48.48353292714435!3d-27.61355843524483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273eba4a4e8981%3A0x7936e1582a4fd8e1!2sFarm%C3%A1cia%20Lagoa!5e0!3m2!1spt-BR!2sbr!4v1684548904913!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe  width="120%" frameborder = "0" margin-left="-2.5px" height="800px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113131.32022301319!2d-48.48353292714435!3d-27.61355843524483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273eba4a4e8981%3A0x7936e1582a4fd8e1!2sFarm%C3%A1cia%20Lagoa!5e0!3m2!1spt-BR!2sbr!4v1684548904913!5m2!1spt-BR!2sbr" ></iframe>
 
           </div>
 
