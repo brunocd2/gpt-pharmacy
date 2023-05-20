@@ -214,7 +214,7 @@ export default function Users() {
 
       <Toaster position="top-right" reverseOrder={false} />
       <h1>Cadastrar novo Cliente</h1>
-      <p>Aqui você encontra a lista e cadastro de Clientes.</p>
+      <p>Aqui você encontra a lista e cadastro de Usuários.</p>
       <div className="headerRow">
         <Button text="Cadastrar Cliente" color="branding" onClick={handleOpenModal} />
         <span>

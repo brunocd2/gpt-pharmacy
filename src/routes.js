@@ -11,7 +11,7 @@ import Notifications from "./pages/Notifications";
 import ForgotPassword from "./pages/ForgotPassword";
 import Assistente from "./pages/Assistente";
 import NovaConsulta from "./pages/NovaConsulta";
-import Procedimentos from "./pages/Procedimentos";
+import Farmácias from "./pages/Farmácias";
 import Maps from "./pages/Maps";
 
 export default function Routes() {
@@ -29,7 +29,7 @@ export default function Routes() {
         <Route path="/usuarios" element={<Users />} />                
         <Route path="/assistente-virtual" element={<Assistente />} /> 
         <Route path="/NovaConsulta" element={<NovaConsulta />} />        
-        <Route path="/Procedimentos" element={<Procedimentos />} />        
+        <Route path="/Farmácias" element={<Farmácias />} />        
         <Route path="/Maps" element={<Maps />} />        
 
 

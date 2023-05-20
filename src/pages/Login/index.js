@@ -105,7 +105,7 @@ export default function Login() {
         <img src={LogoMobile} alt="domazzi" />
 
         <center>
-          <h3>Saiba tudo sobre procedimentos, preços, bulas, recomendações e muito mais<br /> Esteticista Virtual Laissa Pacheco</h3>
+          <h3>Saiba tudo sobre Farmácias, preços, bulas, recomendações e muito mais<br /> Esteticista Virtual Laissa Pacheco</h3>
         </center>
 
         <form onSubmit={handleSubmit}>

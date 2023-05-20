@@ -41,7 +41,7 @@ export default function Dashboard() {
     diff: 0.0
   })
   const [pieChartData, setPieChartData] = useState([
-    ["Procedimentos", "Vendas"],
+    ["Farmácias", "Vendas"],
     ["Eletroterapia", 0],
     ["Peelings ", 0,],
     ["Carboxiterapia", 0],
@@ -415,25 +415,25 @@ export default function Dashboard() {
 
           <div className="cardRow" >
             <Card
-              title="Clientes Novos"
-              value={clients.thisMonth.length + ` clientes`} gains={clients.diff.toFixed(2)}
-              detail={clients.lastMonth.length + " clientes - último mês"}
+              title="Usuários Novos"
+              value={clients.thisMonth.length + ` Usuários`} gains={clients.diff.toFixed(2)}
+              detail={clients.lastMonth.length + " Usuários - último mês"}
             />
           </div>
 
           <Card
-            title="Total Geral de Procedimentos"
+            title="Total Geral de Farmácias"
             value={imports.thisMonth.length + " un."} gains={imports.diff.toFixed(2)}
             detail={imports.lastMonth.length + " un. - último mês"}
           />
 
           <Card
-            title="Total Geral de Procedimentos ùnicos"
+            title="Total Geral de Farmácias ùnicos"
             value={singleProducts.thisMonth.length + " un."} gains={singleProducts.diff.toFixed(2)}
             detail={singleProducts.lastMonth.length + " un - último mês"}
           />
 
-          <Card title="Procedimentos Realizadas Hoje" value={importsToday.length + " unidades"} noComparison />
+          <Card title="Farmácias Realizadas Hoje" value={importsToday.length + " unidades"} noComparison />
           <div className="filterProducts">
             <InputWithIcon
               placeholder="Filtre por procedimento"

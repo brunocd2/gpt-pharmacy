@@ -10,7 +10,7 @@ import { newUser } from "../../services/api";
 import { toastError, toastSuccess } from "../../utils/toast";
 import { Toaster } from "react-hot-toast";
 
-export default function Procedimentos() {
+export default function Farmácias() {
   const [permissions, setPermissions] = useState([
     'Eletroterapia', 'Ultrasom Estético', 'Radiofreqüência Estética', 'Laserterapia', 'Peelings químicos e Mecânicos', 'Carboxiterapia', 'Intradermoterapia', 'Aplicação de toxina botulínica','preenchimentos na derme','Fios de sustentação'
   ])
@@ -46,7 +46,7 @@ export default function Procedimentos() {
       <br></br>
 
 <br></br>
-      <h3>Procedimentos Da Nossa Estética</h3>
+      <h3>Farmácias Da Nossa Estética</h3>
       
       <br></br>
         <span className="row">

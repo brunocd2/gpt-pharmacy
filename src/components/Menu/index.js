@@ -85,7 +85,7 @@ export default function Menu({ hideRoutes }) {
           <span className="divider" />
           <nav>
             <div>
-              <h2>Meus Procedimentos</h2>
+              <h2>Meus Farmácias</h2>
               <span
                 onClick={() => handleNavigate('/assistente-virtual')}
                 className={location.pathname === '/assistente-virtual' ? 'active' : ''}
@@ -95,7 +95,7 @@ export default function Menu({ hideRoutes }) {
               </span>
               <span onClick={() => handleClickSubMenu('products')}>
                 <img src={ProductsIcon} alt="" />
-                Procedimentos
+                Farmácias
                 <img
                   className="rightIcon" alt=""
                   src={activeSubMenu === 'products' ? ArrowUpIcon : ArrowDownIcon}
@@ -103,25 +103,16 @@ export default function Menu({ hideRoutes }) {
               </span>
               {activeSubMenu === 'products' &&
                 <div className="subMenuContent">
-                  <span
-                    onClick={() => handleClick()}
-                  >
-                    Agendar novo Procedimento
-                  </span>
                   
                   
-                  <span
-                    onClick={() => handleNavigate('/')}
-                  >
-                    Agendados
-                  </span>
+                  
+                 
 
                   <span
                 onClick={() => handleNavigate('/Maps')}
                 className={location.pathname === '/Maps' ? 'active' : ''}
               >
-                    Como chegar
-                  </span>
+                Encontre uma perto de você                  </span>
                 </div>
                 
                 
@@ -147,12 +138,12 @@ export default function Menu({ hideRoutes }) {
                 }
               </span>
               <span
-              onClick={() => handleNavigate('/Procedimentos')}
-              className={location.pathname === '/Procedimentos' ? 'active' : 'notification'}
+              onClick={() => handleNavigate('/Farmácias')}
+              className={location.pathname === '/Farmácias' ? 'active' : 'notification'}
            
               >
                 <img src={DashboardActiveIcon} alt="-" />
-                Procedimentos Disponíveis
+                Farmácias Disponíveis
               </span>
             </div>
             <div>
@@ -174,7 +165,7 @@ export default function Menu({ hideRoutes }) {
                   <span onClick={() => handleNavigate('/usuarios')}
                     className={location.pathname === '/usuarios' ? 'active' : ''}
                   >
-                    Lista de Clientes
+                    Lista de Usuários
                   </span>
 
                   <span
@@ -183,18 +174,8 @@ export default function Menu({ hideRoutes }) {
                   >
                     Dashboard
                   </span>
-                  <span
-                    onClick={() => handleNavigate('/NovaConsulta')}
-                  // className={location.pathname === '/produtos-cadastrados' ? 'active' : ''}
-                  >
-                    Cadastrar Consulta
-                  </span>
-                  <span
-                    onClick={() => handleNavigate('/produtos-cadastrados')}
-                    className={location.pathname === '/produtos-cadastrados' ? 'active' : ''}
-                  >
-                    Realizados
-                  </span>
+                 
+                 
                 </div>
               }
 

@@ -78,7 +78,7 @@ export default function NovaConsulta() {
 </span>
         <h2>Selecione o Perfil</h2>
 
-        <div className="procedimentos">
+        <div className="Farmácias">
           {permissions.map((permission, index) =>
             <label key={index}>
               <input type="checkbox" />{permission}
