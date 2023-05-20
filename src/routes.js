@@ -11,7 +11,7 @@ import Notifications from "./pages/Notifications";
 import ForgotPassword from "./pages/ForgotPassword";
 import Assistente from "./pages/Assistente";
 import NovaConsulta from "./pages/NovaConsulta";
-import Farmácias from "./pages/Farmácias";
+import Farmácias from "./pages/Maps";
 import Maps from "./pages/Maps";
 
 export default function Routes() {
