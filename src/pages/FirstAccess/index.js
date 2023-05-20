@@ -48,7 +48,7 @@ export default function FirstAccess() {
     <>
       <LoginLeftWrapper>
         <img src={Logo} alt="CD2 GPT Super" />
-        <h2>Bem vindo(a) ao <br /> Esteticista Virtual Laissa Pacheco.</h2>
+        <h2>Bem vindo(a) ao <br /> Farmacêutico Virtual.</h2>
       </LoginLeftWrapper>
 
       <LoginRightWrapper>
