@@ -381,7 +381,7 @@ export default function Assistente() {
       <CardsArea>
         <div className="cards" >
           <div>
-          <iframe  width="120%" frameborder = "0" margin-left="-2.5px" height="800px" src="https://brurei-auto-pharmacy.hf.space" ></iframe>
+          <iframe  width="120%" frameborder = "0" margin-left="-2.5px" height="800px" src="https://brurei-auto-pharmacy.hf.space/?__theme=light&__sign=eyJhbGciOiJFZERTQSJ9.eyJpYXQiOjE2ODQ4NTA0MzcsInN1YiI6ImJydXJlaS9hdXRvLXBoYXJtYWN5IiwiZXhwIjoxNjg0OTM2ODM3LCJpc3MiOiJodHRwczovL2h1Z2dpbmdmYWNlLmNvIn0.xgJd-sPFvBvuL0QeUNU25QQvacoE2nryTujBX-k9T_u-GGFAiWEwU04_VkmI3ECmihSfWnQU9UF3-kcx7eD6Dg" ></iframe>
 
           </div>
 
